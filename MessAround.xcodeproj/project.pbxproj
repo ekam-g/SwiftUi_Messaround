@@ -14,6 +14,9 @@
 		433E8B68280A6AA60077C742 /* MessAroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B67280A6AA60077C742 /* MessAroundTests.swift */; };
 		433E8B72280A6AA60077C742 /* MessAroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B71280A6AA60077C742 /* MessAroundUITests.swift */; };
 		433E8B74280A6AA60077C742 /* MessAroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B73280A6AA60077C742 /* MessAroundUITestsLaunchTests.swift */; };
+		43E6AA50280BBA7D00900501 /* Buttion 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E6AA4F280BBA7D00900501 /* Buttion 1.swift */; };
+		43E6AA52280BBAF100900501 /* Buttion2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E6AA51280BBAF100900501 /* Buttion2.swift */; };
+		43EB66D0280C6E9C008153DC /* Buttion 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EB66CF280C6E9C008153DC /* Buttion 3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		433E8B6D280A6AA60077C742 /* MessAroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessAroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433E8B71280A6AA60077C742 /* MessAroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessAroundUITests.swift; sourceTree = "<group>"; };
 		433E8B73280A6AA60077C742 /* MessAroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessAroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43E6AA4F280BBA7D00900501 /* Buttion 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttion 1.swift"; sourceTree = "<group>"; };
+		43E6AA51280BBAF100900501 /* Buttion2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttion2.swift; sourceTree = "<group>"; };
+		43EB66CF280C6E9C008153DC /* Buttion 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttion 3.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				433E8B56280A6AA50077C742 /* MessAroundApp.swift */,
 				433E8B58280A6AA50077C742 /* ContentView.swift */,
+				43E6AA4F280BBA7D00900501 /* Buttion 1.swift */,
+				43E6AA51280BBAF100900501 /* Buttion2.swift */,
+				43EB66CF280C6E9C008153DC /* Buttion 3.swift */,
 				433E8B5A280A6AA60077C742 /* Assets.xcassets */,
 				433E8B5C280A6AA60077C742 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E6AA52280BBAF100900501 /* Buttion2.swift in Sources */,
 				433E8B59280A6AA50077C742 /* ContentView.swift in Sources */,
 				433E8B57280A6AA50077C742 /* MessAroundApp.swift in Sources */,
+				43E6AA50280BBA7D00900501 /* Buttion 1.swift in Sources */,
+				43EB66D0280C6E9C008153DC /* Buttion 3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MessAround/Preview Content\"";
-				DEVELOPMENT_TEAM = 74ZKVDVJ3B;
+				DEVELOPMENT_TEAM = ZBHU8LRUM9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EkamGhai.MessAround;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MessAround.EkamGhai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,7 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MessAround/Preview Content\"";
-				DEVELOPMENT_TEAM = 74ZKVDVJ3B;
+				DEVELOPMENT_TEAM = ZBHU8LRUM9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EkamGhai.MessAround;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MessAround.EkamGhai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
