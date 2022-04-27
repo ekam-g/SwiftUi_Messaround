@@ -14,7 +14,7 @@ struct buttion2: View {
                     .ignoresSafeArea()
             Image("Swift")
             VStack {
-                Text("ZStack/VStack test")
+                Text("This App took 1,429 lines of code!")
                         .foregroundColor(Color.black)
                         .padding(.all, 45)
 

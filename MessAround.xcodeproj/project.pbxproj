@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F8756731866AE8C3120223C /* Apple_iphone_6_Original_Ringtone_S_(getmp3.pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F875FAA5687A510FBFBF0F2 /* Apple_iphone_6_Original_Ringtone_S_(getmp3.pro).mp3 */; };
+		4317B654281312F900996778 /* FakeMomCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4317B653281312F900996778 /* FakeMomCall.swift */; };
 		433E8B57280A6AA50077C742 /* MessAroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B56280A6AA50077C742 /* MessAroundApp.swift */; };
 		433E8B59280A6AA50077C742 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B58280A6AA50077C742 /* ContentView.swift */; };
 		433E8B5B280A6AA60077C742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433E8B5A280A6AA60077C742 /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		433E8B68280A6AA60077C742 /* MessAroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B67280A6AA60077C742 /* MessAroundTests.swift */; };
 		433E8B72280A6AA60077C742 /* MessAroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B71280A6AA60077C742 /* MessAroundUITests.swift */; };
 		433E8B74280A6AA60077C742 /* MessAroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E8B73280A6AA60077C742 /* MessAroundUITestsLaunchTests.swift */; };
+		436119FF2810427B0001F80D /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436119FE2810427B0001F80D /* Demo.swift */; };
+		43611A012810A7540001F80D /* CRAAPTEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43611A002810A7540001F80D /* CRAAPTEST.swift */; };
+		43965B352818B9BD004823D1 /* Math_nPr:nCr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43965B342818B9BD004823D1 /* Math_nPr:nCr.swift */; };
+		43965B372818D96A004823D1 /* MathEz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43965B362818D96A004823D1 /* MathEz.swift */; };
+		43965B392818DB95004823D1 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43965B382818DB95004823D1 /* Factorial.swift */; };
 		43E6AA50280BBA7D00900501 /* Buttion 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E6AA4F280BBA7D00900501 /* Buttion 1.swift */; };
 		43E6AA52280BBAF100900501 /* Buttion2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E6AA51280BBAF100900501 /* Buttion2.swift */; };
 		43EB66D0280C6E9C008153DC /* Buttion 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EB66CF280C6E9C008153DC /* Buttion 3.swift */; };
@@ -37,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F875FAA5687A510FBFBF0F2 /* Apple_iphone_6_Original_Ringtone_S_(getmp3.pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Apple_iphone_6_Original_Ringtone_S_(getmp3.pro).mp3"; sourceTree = "<group>"; };
+		4317B653281312F900996778 /* FakeMomCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeMomCall.swift; sourceTree = "<group>"; };
+		4317B655281348B800996778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		433E8B53280A6AA50077C742 /* MessAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		433E8B56280A6AA50077C742 /* MessAroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessAroundApp.swift; sourceTree = "<group>"; };
 		433E8B58280A6AA50077C742 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +57,11 @@
 		433E8B6D280A6AA60077C742 /* MessAroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessAroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433E8B71280A6AA60077C742 /* MessAroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessAroundUITests.swift; sourceTree = "<group>"; };
 		433E8B73280A6AA60077C742 /* MessAroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessAroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		436119FE2810427B0001F80D /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		43611A002810A7540001F80D /* CRAAPTEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRAAPTEST.swift; sourceTree = "<group>"; };
+		43965B342818B9BD004823D1 /* Math_nPr:nCr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Math_nPr:nCr.swift"; sourceTree = "<group>"; };
+		43965B362818D96A004823D1 /* MathEz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEz.swift; sourceTree = "<group>"; };
+		43965B382818DB95004823D1 /* Factorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
 		43E6AA4F280BBA7D00900501 /* Buttion 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttion 1.swift"; sourceTree = "<group>"; };
 		43E6AA51280BBAF100900501 /* Buttion2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttion2.swift; sourceTree = "<group>"; };
 		43EB66CF280C6E9C008153DC /* Buttion 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttion 3.swift"; sourceTree = "<group>"; };
@@ -100,12 +115,20 @@
 		433E8B55280A6AA50077C742 /* MessAround */ = {
 			isa = PBXGroup;
 			children = (
+				4317B655281348B800996778 /* Info.plist */,
 				433E8B56280A6AA50077C742 /* MessAroundApp.swift */,
 				433E8B58280A6AA50077C742 /* ContentView.swift */,
+				43611A002810A7540001F80D /* CRAAPTEST.swift */,
+				4317B653281312F900996778 /* FakeMomCall.swift */,
+				43965B362818D96A004823D1 /* MathEz.swift */,
+				43965B382818DB95004823D1 /* Factorial.swift */,
+				43965B342818B9BD004823D1 /* Math_nPr:nCr.swift */,
+				436119FE2810427B0001F80D /* Demo.swift */,
 				43E6AA4F280BBA7D00900501 /* Buttion 1.swift */,
 				43E6AA51280BBAF100900501 /* Buttion2.swift */,
 				43EB66CF280C6E9C008153DC /* Buttion 3.swift */,
 				433E8B5A280A6AA60077C742 /* Assets.xcassets */,
+				2F875FAA5687A510FBFBF0F2 /* Apple_iphone_6_Original_Ringtone_S_(getmp3.pro).mp3 */,
 				433E8B5C280A6AA60077C742 /* Preview Content */,
 			);
 			path = MessAround;
@@ -242,6 +265,7 @@
 			files = (
 				433E8B5E280A6AA60077C742 /* Preview Assets.xcassets in Resources */,
 				433E8B5B280A6AA60077C742 /* Assets.xcassets in Resources */,
+				2F8756731866AE8C3120223C /* Apple_iphone_6_Original_Ringtone_S_(getmp3.pro).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,11 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43965B372818D96A004823D1 /* MathEz.swift in Sources */,
+				4317B654281312F900996778 /* FakeMomCall.swift in Sources */,
+				43965B392818DB95004823D1 /* Factorial.swift in Sources */,
 				43E6AA52280BBAF100900501 /* Buttion2.swift in Sources */,
+				43611A012810A7540001F80D /* CRAAPTEST.swift in Sources */,
 				433E8B59280A6AA50077C742 /* ContentView.swift in Sources */,
+				436119FF2810427B0001F80D /* Demo.swift in Sources */,
 				433E8B57280A6AA50077C742 /* MessAroundApp.swift in Sources */,
 				43E6AA50280BBA7D00900501 /* Buttion 1.swift in Sources */,
 				43EB66D0280C6E9C008153DC /* Buttion 3.swift in Sources */,
+				43965B352818B9BD004823D1 /* Math_nPr:nCr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +462,15 @@
 				DEVELOPMENT_TEAM = ZBHU8LRUM9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MessAround/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,11 +495,15 @@
 				DEVELOPMENT_TEAM = ZBHU8LRUM9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MessAround/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

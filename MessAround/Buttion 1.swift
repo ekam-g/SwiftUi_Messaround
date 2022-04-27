@@ -11,7 +11,7 @@ struct buttion1: View {
     var body: some View {
         ZStack {
             Text("This Page Is a Demo of Iphone Dark Mode, so give a test")
-                    .padding(.all,50)
+                    .padding(.all, 50)
                     .multilineTextAlignment(.center)
         }
     }

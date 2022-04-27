@@ -9,73 +9,95 @@ import SwiftUI
 
 struct ContentView: View {
 
+    let backgroundGradient = LinearGradient(
+            colors: [Color.orange, Color.blue],
+            startPoint: .top, endPoint: .bottom)
+
+
     var body: some View {
 
         NavigationView {
-
+            //add color if you want
 
             ZStack {
-
-                AngularGradient(gradient: Gradient(colors: [.orange, .yellow, .red, .orange, .yellow, .red, .orange]), center: .center).ignoresSafeArea()
+                backgroundGradient
                         .ignoresSafeArea()
+
                 VStack {
-                    NavigationLink(destination: buttion1()) {
-                        Text("Buttion 1")
-                                .foregroundColor(Color.white)
-                                .multilineTextAlignment(.center)
-                                .padding(.all, 10.0)
-                                .background(Color.yellow)
-                                .cornerRadius(40)
-                                .padding(10)
-                                .overlay(
-                                        RoundedRectangle(cornerRadius: 40)
-                                                .stroke(Color.yellow, lineWidth: 5)
-                                )
-
-                    }
-                    Text("")
-                            ///this is for spacing
-                            .padding(.all, 50)
-
-                    NavigationLink(destination: buttion2()) {
-                        Text("Buttion 2")
-                                .foregroundColor(Color.white)
-                                .multilineTextAlignment(.center)
-                                .padding(.all, 10.0)
-                                .background(Color.orange)
-                                .cornerRadius(40)
-                                .foregroundColor(.white)
-                                .padding(10)
-                                .shadow(radius: 80)
-                                .overlay(
-                                        RoundedRectangle(cornerRadius: 40)
-                                                .stroke(Color.orange, lineWidth: 5)
-                                )
-                    }
-                    Text("")
-                            .padding(.all, 40)
-
-                    NavigationLink(destination: buttion3()) {
-                        Text("Buttion 3")
-                                .foregroundColor(Color.white)
-                                .multilineTextAlignment(.center)
-                                .padding(.all, 10.0)
-                                .background(Color.red)
-                                .cornerRadius(40)
-                                .padding(10)
+                    Spacer()
+                    NavigationLink(destination: CRAAPTEST()) {
+                        Text("CRAAP Test")
+                                .frame(width: 150, height: 25)
                                 .foregroundColor(Color.black)
+                                .multilineTextAlignment(.center)
+                                .padding(.all, 10.0)
+                                .background(Color.white)
+                                .cornerRadius(40)
+                                .padding(10)
+                                .overlay(
+                                        RoundedRectangle(cornerRadius: 40)
+                                                .stroke(Color.white, lineWidth: 5)
+                                )
+
+                    }
+                    Spacer()
+
+                    NavigationLink(destination: FakeMomCall()) {
+                        Text("Fake Call")
+                                .frame(width: 150, height: 25)
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(Color.black)
+                                .padding(.all, 10.0)
+                                .background(Color.white)
+                                .cornerRadius(40)
+                                .padding(10)
+                                .overlay(
+                                        RoundedRectangle(cornerRadius: 40)
+                                                .stroke(Color.white, lineWidth: 5)
+                                )
+
+                    }
+                    Spacer()
+                    NavigationLink(destination: MathEz()) {
+                        Text("MathEz")
+                                .frame(width: 150, height: 25)
+                                .foregroundColor(Color.black)
+                                .multilineTextAlignment(.center)
+                                .padding(.all, 10.0)
+                                .background(Color.white)
+                                .cornerRadius(40)
+                                .padding(10)
+                                .overlay(
+                                        RoundedRectangle(cornerRadius: 40)
+                                                .stroke(Color.white, lineWidth: 5)
+                                )
+
+                    }
+                    Spacer()
+
+                    NavigationLink(destination: Demo()) {
+                        Text("Demo")
+                                .frame(width: 150, height: 25)
+                                .multilineTextAlignment(.center)
+                                .padding(.all, 10.0)
+                                .background(Color.white)
+                                .cornerRadius(40)
+                                .foregroundColor(.black)
+                                .padding(10)
                                 .shadow(radius: 80)
                                 .overlay(
                                         RoundedRectangle(cornerRadius: 40)
-                                                .stroke(Color.red, lineWidth: 5)
+                                                .stroke(Color.white, lineWidth: 5)
                                 )
                     }
+                    Spacer()
 
                 }
             }
-                    .navigationTitle("Ekam's Mess Around App Home")
+
+                    .navigationTitle("Home")
                     .navigationBarTitleDisplayMode(.inline)
-                    .foregroundColor(Color.white)
+
         }
 
     }
