@@ -53,7 +53,6 @@ struct FakeMomCall: View {
         ZStack {
             Color.black
                 .ignoresSafeArea()
-                .blur(radius: 20)
                         
             VStack {
                 Text("Mom")
